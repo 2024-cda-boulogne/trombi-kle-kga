@@ -42,6 +42,16 @@ document.addEventListener("DOMContentLoaded", function() {
             city: "Outreau 2",
             stack: "React",
         },
+        {
+            name:"Jean-Baptiste Lavisse",
+            city:"Ecques",
+            stack:"Angular", 
+        },
+        {
+            name:"Alexandre Merlin",
+            city:"St André les Lilles",
+            stack:"Angular",
+        }
 
         // Ajouter les autres membres ici...
     ];
@@ -67,17 +77,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function getCoordinates(city) {
         // À remplacer par une méthode de géocodage réelle
         switch (city.toLowerCase()) {
-             case "paris":
-                 return [48.8566, 2.3522];
             case "desvres":
                 return [50.666667, 1.833333]; // Coordonnées de Paris
-            case "lyon":
-                return [45.76, 4.84];
             case "outreau 1":
                 return [50.710288248605096, 1.5954472204350838];
             case "outreau 2":
                 return [50.68992860602505, 1.6039390263407505];    
-                
+            case "ecques":
+                return [50.66967583282208, 2.2869485015053885];
             case "boulogne-sur-mer":
                 return [50.703333, 1.603333];
             // Ajouter d'autres villes ici...
