@@ -63,12 +63,6 @@ main {
     overflow: hidden;
   }
   
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
   .echelle {
     display: flex;
     justify-content: space-between;
@@ -128,15 +122,53 @@ main {
   }
   #point1{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 279px;
+    left: 370px
   }
   #point2{
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 302px;
+    left: 350px;
+  }
+  #point3{
+    position: absolute;
+    top: 320px;
+    left: 465px;
+  }
+  #point4{
+    position: absolute;
+    top: 300px;
+    left: 951px
+  }
+  #point5{
+    position: absolute;
+    top: 323px;
+    left: 363px;
+  }
+  #point6{
+    position: absolute;
+    top: 280px;
+    left: 412px;
+  }
+  #point7{
+    position: absolute;
+    top: 338px;
+    left: 438px;
+  }
+  #point8{
+    position: absolute;
+    top: 295px;
+    left: 636px;
+  }
+  #point9{
+    position: absolute;
+    top: 72px;
+    left: 673px;
+  }
+  #point10{
+    position: absolute;
+    top: 241px;
+    left: 1196px;
   }
   
   @keyframes pulse {
@@ -160,7 +192,9 @@ main {
   }
   
   .popup-content {
-    /* Styles for popup content */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
   
   .close {
