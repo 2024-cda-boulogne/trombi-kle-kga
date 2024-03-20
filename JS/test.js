@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       showPopup(city);
     });
   });
-
+});
 
 function showPopup(city) {
   var popup = document.getElementById("popup");
