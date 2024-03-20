@@ -1,4 +1,94 @@
 {
-  "title": "Titre  Popup",
-  "description": "Description du contenu du Popup"
+  "users": [
+  {
+    "userId" : "1",
+    "name": "Kévin Ledez",
+    "city": "Desvres",
+    "stack": "Symfony / Angular"
+  },
+  {
+    "userId" : "2",
+    "name": "Karl Gavois",
+    "city": "Outreau",
+    "stack": "Symfony / React"
+  },
+  {
+    "userId" : 3,
+    "name": "Eric Da Silva Rocha",
+    "city": "Outreau",
+    "stack": "React"
+  },
+  {
+    "userId" : 4,
+    "name":"Vivien Gajac",
+    "city":"Boulogne-sur-Mer",
+    "stack":"Symfony"
+  },
+  {
+    "userId" : 5,
+    "name":"Alexandre Merlin",
+    "city":"St André lez Lille",
+    "stack":".NET"
+  },
+  {
+    "userId" : 6,
+    "name":"William Truant",
+    "city":"Boulogne-sur-Mer",
+    "stack":"Oui"
+  },
+  {
+    "userId" : 7,
+    "name":"Alex Buffet",
+    "city":"Boulogne-sur-Mer",
+    "stack":"Le PHP c'est d'la merde"
+  },
+  {
+    "userId" : 8,
+    "name":"Théo Duflos",
+    "city":"St Etienne au Mont",
+    "stack":".NET"
+  },
+  {
+    "userId" : 9,
+    "name":"Geoffroy Noêl",
+    "city":"Marquise",
+    "stack":"Oui"
+  },
+  {
+    "userId" : 10,
+    "name":"Théo Couverlard",
+    "city":"La Capelle-lès-Boulogne",
+    "stack":"Next / React / NodeJS"
+  },
+  {
+    "userId" : 11,
+    "name":"L'autre 1",
+    "city":"Sous l'océan",
+    "stack":"Docker"
+  },
+  {
+    "userId" : 12,
+    "name":"L'autre 2",
+    "city":"Sous l'océan",
+    "stack":"Docker"
+  },
+  {
+    "userId" : 20,
+    "name":"Nicolas Herbez",
+    "city":"Samer",
+    "stack":"Symfony / Angular"
+  },
+  {
+    "userId" : 21,
+    "name":"Jean-Baptiste Lavisse",
+    "city":"Ecques",
+    "stack":"Angular"
+  },
+  {
+    "userId" : 100,
+    "name":"Gilles",
+    "city":"Pole Emploi",
+    "stack":"Sourires"
+  }
+]
 }
