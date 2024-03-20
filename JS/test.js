@@ -67,11 +67,15 @@ function showPopup(city) {
   var popup = document.getElementById("popup");
   popup.style.display = "block";
 
-  // Make a request to fetch JSON data
+  // Jouer un son lors de l'ouverture de la popup
+  var audio = new Audio('original.mp3');
+  audio.play();
+
+  // Faire une requête pour récupérer les données JSON
   fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
-      // Filter users by the given city
+      // Filtrer les utilisateurs par la ville donnée
       var usersInCity = data.users.filter((item) => item.city === city);
       if (usersInCity.length > 0) {
         var popupContent = document.getElementById("popupContent");
@@ -90,10 +94,10 @@ function showPopup(city) {
         });
         popupContent.innerHTML = contentHTML;
       } else {
-        console.error("No users found for city:", city);
+        console.error("Aucun utilisateur trouvé pour la ville :", city);
       }
     })
-    .catch((error) => console.error("Error fetching JSON:", error));
+    .catch((error) => console.error("Erreur lors de la récupération du JSON :", error));
 }
 
 function closePopup() {
