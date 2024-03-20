@@ -81,13 +81,39 @@ main {
     font-size: 14px;
   }
 
-  #FR-59{
+  svg{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.5));   
+
+  }
+
+  .FR-59{
     position: absolute;
-    /* transform: translate(404px, 4px); */
-    width: 500px;
-    height: 60px;
-    font-size: 50px;
-    background-size:500px;
+    transform: translate(-2450px, 4px) scale(10, 10); 
+    fill: #ddad0f;
+    stroke: #ffffff;
+    stroke-width:0.5px;
+    stroke-linejoin: round;
+    animation: runningRGB 8s linear infinite;
+  }
+  .FR-59:hover{
+    fill:aqua;
+    animation: runningRGB 8s linear infinite;
+  }
+
+
+  .FR-62{
+    position: absolute;
+    transform: translate(-2450px, 4px) scale(10, 10);
+    fill:#A0A803;
+    stroke: #ffffff;
+    stroke-width:0.5px;
+    stroke-linejoin: round; 
+  }
+  .FR-62:hover{
+    fill: rosybrown ;
+  }
+  .masquer{
+    display: none
   }
 
 
