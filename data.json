@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "name": "Kévin Ledez",
+      "city": "Desvres",
+      "stack": "Symfony / Angular",
+      "avatar": "IMG/avatars/kevin.jpg"
+    },
+    {
+      "userId": "2",
+      "name": "Karl Gavois",
+      "city": "Outreau",
+      "stack": "Symfony / React",
+      "avatar": "IMG/avatars/karl.webp"
+    },
+    {
+      "userId": 3,
+      "name": "Eric Da Silva Rocha",
+      "city": "Outreau",
+      "stack": "React",
+      "avatar": "IMG/avatars/eric.png"
+    },
+    {
+      "userId": 4,
+      "name": "Vivien Gajac",
+      "city": "Boulogne-sur-Mer",
+      "stack": "Symfony",
+      "avatar": "IMG/avatars/vivien.jpg"
+    },
+    {
+      "userId": 5,
+      "name": "Alexandre Merlin",
+      "city": "St André lez Lille",
+      "stack": ".NET",
+      "avatar": "IMG/avatars/alexandre.jpg"
+    },
+    {
+      "userId": 6,
+      "name": "William Truant",
+      "city": "Boulogne-sur-Mer",
+      "stack": "Oui",
+      "avatar": "IMG/avatars/Will.jpg"
+    },
+    {
+      "userId": 7,
+      "name": "Alex Buffet",
+      "city": "Boulogne-sur-Mer",
+      "stack": "Le PHP c'est d'la merde",
+      "avatar": "IMG/avatars/alex.webp"
+    },
+    {
+      "userId": 8,
+      "name": "Théo Duflos",
+      "city": "St Etienne au Mont",
+      "stack": ".NET",
+      "avatar": "IMG/avatars/theoD.jpg"
+    },
+    {
+      "userId": 9,
+      "name": "Geoffroy Noêl",
+      "city": "Marquise",
+      "stack": "Oui",
+      "avatar": "IMG/avatars/geo.webp"
+    },
+    {
+      "userId": 10,
+      "name": "Théo Couverlard",
+      "city": "La Capelle-lès-Boulogne",
+      "stack": "Next / React / NodeJS",
+      "avatar": "IMG/avatars/theo.webp"
+    },
+    {
+      "userId": 11,
+      "name": "L'autre 1",
+      "city": "Sous l'océan",
+      "stack": "Docker",
+      "avatar": "IMG/avatars/default.jpg"
+    },
+    {
+      "userId": 12,
+      "name": "L'autre 2",
+      "city": "Sous l'océan",
+      "stack": "Docker",
+      "avatar": "IMG/avatars/default.jpg"
+    },
+    {
+      "userId": 20,
+      "name": "Nicolas Herbez",
+      "city": "Samer",
+      "stack": "Symfony / Angular",
+      "avatar": "IMG/avatars/Nico.jpg"
+    },
+    {
+      "userId": 21,
+      "name": "Jean-Baptiste Lavisse",
+      "city": "Ecques",
+      "stack": "Angular",
+      "avatar": "IMG/avatars/jb.jpg"
+    },
+    {
+      "userId": 100,
+      "name": "Gilles",
+      "city": "Pole Emploi",
+      "stack": "Sourires",
+      "avatar": "IMG/avatars/sourire.jpg"
+    }
+  ]
+}
