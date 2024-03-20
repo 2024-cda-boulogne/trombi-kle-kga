@@ -4,91 +4,136 @@
     "userId" : "1",
     "name": "Kévin Ledez",
     "city": "Desvres",
-    "stack": "Symfony / Angular"
+    "stack": "Symfony / Angular",
+    "github": "https://github.com/kevin-ledez",
+    "linkedin": "https://www.linkedin.com/in/kevin-ledez/",
+    "hobbies": "Jeux, Programmation, Musique"
   },
   {
     "userId" : "2",
     "name": "Karl Gavois",
     "city": "Outreau",
-    "stack": "Symfony / React"
+    "stack": "Symfony / React",
+    "github": "https://github.com/Karl-Gavois",
+    "linkedin": "https://www.linkedin.com/in/karl-gavois/",
+    "hobbies": "Jeux / Formule 1"
   },
   {
     "userId" : 3,
     "name": "Eric Da Silva Rocha",
     "city": "Outreau",
-    "stack": "React"
+    "stack": "React / Symfony",
+    "github": "https://github.com/Ericdsr",
+    "linkedin": "https://www.linkedin.com/in/eric-da-silva-rocha/",
+    "hobbies": "Jeu vidéo"
   },
   {
     "userId" : 4,
     "name":"Vivien Gajac",
     "city":"Boulogne-sur-Mer",
-    "stack":"Symfony"
+    "stack":"JS PHP Symfony MySQL",
+    "github": "https://github.com/viviengajac",
+    "linkedin": "https://www.linkedin.com/in/vivien-gajac-b43a0b2a2/",
+    "hobbies": "Jeux vidéos, Guitare, Lever de coude"
   },
   {
     "userId" : 5,
     "name":"Alexandre Merlin",
     "city":"St André lez Lille",
-    "stack":".NET"
+    "stack":"C# .NET, React, Angular",
+    "github": "https://github.com/Merlinovitch",
+    "linkedin": "https://www.linkedin.com/in/alexandre-merlin-82a395a8/",
+    "hobbies": "jeux vidéos, peinture"
   },
   {
     "userId" : 6,
     "name":"William Truant",
     "city":"Boulogne-sur-Mer",
-    "stack":"Oui"
+    "stack":"Symfony, react",
+    "github": "https://github.com/notlimai",
+    "linkedin": "https://www.linkedin.com/in/william-truant-b57b92244/",
+    "hobbies": "Jeu vidéo"
   },
   {
     "userId" : 7,
     "name":"Alex Buffet",
     "city":"Boulogne-sur-Mer",
-    "stack":"Le PHP c'est d'la merde"
+    "stack":"Le PHP c'est d'la merde, React, Node",
+    "github": "https://github.com/JunkBezoul",
+    "linkedin": "https://www.linkedin.com/in/alex-b-945997271/",
+    "hobbies": "jeux videos, la poésie"
   },
   {
     "userId" : 8,
     "name":"Théo Duflos",
     "city":"St Etienne au Mont",
-    "stack":".NET"
+    "stack":"Angular,Java,.NET",
+    "github": "https://github.com/Yokokorico",
+    "linkedin": "https://www.linkedin.com/in/th%C3%A9o-duflos-8625a8262/",
+    "hobbies": "videos games, cinema, animé"
   },
   {
     "userId" : 9,
     "name":"Geoffroy Noêl",
     "city":"Marquise",
-    "stack":"Oui"
+    "stack":"React.js Symfony",
+    "github": "https://github.com/Geoffrey184",
+    "linkedin": "https://www.linkedin.com/in/geoffrey-noel-093683269/",
+    "hobbies": "Basket-ball"
   },
   {
     "userId" : 10,
     "name":"Théo Couverlard",
     "city":"La Capelle-lès-Boulogne",
-    "stack":"Next / React / NodeJS"
+    "stack":"Next.js Node.js Express TypeScript",
+    "github": "https://github.com/Theo02-12",
+    "linkedin": "https://www.linkedin.com/in/th%C3%A9o-couvelard-4089111b5/",
+    "hobbies": "musculation, jeux vidéos"
   },
   {
     "userId" : 11,
     "name":"L'autre 1",
     "city":"Sous l'océan",
-    "stack":"Docker"
+    "stack":"Docker",
+    "github": "Inconnu",
+    "linkedin": "Inconnu",
+    "hobbies": "Nager, Covoiturage, Vider des conteneurs"
   },
   {
     "userId" : 12,
     "name":"L'autre 2",
     "city":"Sous l'océan",
-    "stack":"Docker"
+    "stack":"Docker",
+    "github": "Inconnu",
+    "linkedin": "Inconnu",
+    "hobbies": "Nager, Covoiturage, Vider des conteneurs"
   },
   {
     "userId" : 20,
     "name":"Nicolas Herbez",
     "city":"Samer",
-    "stack":"Symfony / Angular"
+    "stack":"Symfony / Angular",
+    "github": "Inconnu",
+    "linkedin": "Inconnu",
+    "hobbies": "Attendre 1 heure le lancement de son Symfony via Docker, chanter le petit bonhomme en mousse"
   },
   {
     "userId" : 21,
     "name":"Jean-Baptiste Lavisse",
     "city":"Ecques",
-    "stack":"Angular"
+    "stack":"Angular",
+    "github": "Inconnu",
+    "linkedin": "Inconnu",
+    "hobbies": "Nager, Covoiturage, Vider des conteneurs"
   },
   {
     "userId" : 100,
     "name":"Gilles",
     "city":"Pole Emploi",
-    "stack":"Sourires"
+    "stack":"Sourires",
+    "github": "Inconnu",
+    "linkedin": "Inconnu",
+    "hobbies": "Sourire, sourire et sourire"
   }
 ]
 }
