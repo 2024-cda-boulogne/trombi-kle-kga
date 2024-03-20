@@ -76,7 +76,7 @@ function showPopup(city) {
       if (usersInCity.length > 0) {
         var popupContent = document.getElementById("popupContent");
         // Generate HTML for each user in the city
-        var contentHTML = "<h2>Apprenants : " + city + "</h2>";
+        var contentHTML = "<h2>Les développateurs : <br>" + city + "</h2>";
         usersInCity.forEach(function (user) {
           contentHTML +=
             "<div class='content'><img src=" +
