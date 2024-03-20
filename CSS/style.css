@@ -229,3 +229,14 @@ svg {
   cursor: pointer;
   font-size: 30px;
 }
+  #triggerImage {
+    cursor: pointer;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
+  #animatedImage {
+    position: absolute;
+    display: none;
+    top: 5px;
+  }
