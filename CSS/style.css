@@ -25,5 +25,200 @@ main {
     padding: 20px;
     overflow-y: scroll;
 }
+/*V2*/
+#IMG62{
+    position: absolute;;
+    transform: translate(50px, 50px);
+}
+#IMG59{
+    position: absolute;
+    transform: translate(404px, 4px);
+}
+
+.carte {
+    width: 500px; /* Ajuster la largeur selon vos besoins */
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .contenu {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px; /* Ajuster la hauteur selon l'image */
+    overflow: hidden;
+  }
+  
+  .echelle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .echelle span {
+    font-size: 14px;
+  }
+
+  svg{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.5));   
+
+  }
+
+  .FR-59{
+    position: absolute;
+    transform: translate(-2450px, 4px) scale(10, 10); 
+    fill: #ddad0f;
+    stroke: #ffffff;
+    stroke-width:0.5px;
+    stroke-linejoin: round;
+    animation: runningRGB 8s linear infinite;
+  }
+  .FR-59:hover{
+    fill:aqua;
+    animation: runningRGB 8s linear infinite;
+  }
+
+
+  .FR-62{
+    position: absolute;
+    transform: translate(-2450px, 4px) scale(10, 10);
+    fill:#A0A803;
+    stroke: #ffffff;
+    stroke-width:0.5px;
+    stroke-linejoin: round; 
+  }
+  .FR-62:hover{
+    fill: rosybrown ;
+  }
+  .masquer{
+    display: none
+  }
+  .point {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    animation: pulse 1.5s infinite alternate;
+  }
+  #point1{
+    position: absolute;
+    top: 279px;
+    left: 370px
+  }
+  #point2{
+    position: absolute;
+    top: 302px;
+    left: 350px;
+  }
+  #point3{
+    position: absolute;
+    top: 320px;
+    left: 465px;
+  }
+  #point4{
+    position: absolute;
+    top: 300px;
+    left: 951px
+  }
+  #point5{
+    position: absolute;
+    top: 323px;
+    left: 363px;
+  }
+  #point6{
+    position: absolute;
+    top: 280px;
+    left: 412px;
+  }
+  #point7{
+    position: absolute;
+    top: 338px;
+    left: 438px;
+  }
+  #point8{
+    position: absolute;
+    top: 295px;
+    left: 636px;
+  }
+  #point9{
+    position: absolute;
+    top: 72px;
+    left: 673px;
+  }
+  #point10{
+    position: absolute;
+    top: 241px;
+    left: 1196px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+
+
+  #triggerImage {
+    cursor: pointer;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
+  #animatedImage {
+    position: absolute;
+    display: none;
+    top: 5px;
+  }
+  
+
 
 /* Ajoutez des styles supplémentaires selon vos besoins */
