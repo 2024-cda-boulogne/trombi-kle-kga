@@ -3305,7 +3305,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Données des villes (à remplir avec les données réelles)  
 
     // Initialisation de la carte
-    let map = L.map('map').setView([37.8, -96], 4);
+    let map = L.map('map').setView([50.666667, 2.233333], 10.2);
 
     // let tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     //     maxZoom: 19,
@@ -3362,7 +3362,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 return [50.75056098365712, 1.5793858667237435];
             // Ajoute d'autres villes ici...
             default:
-                return [50.73558643554806, 1.6041726210935034]; // Coordonnées par défaut
+                return [50.666667, 2.833333]; // Coordonnées par défaut
         }
     }
 });

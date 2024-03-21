@@ -1,3 +1,6 @@
+var audio2 = new Audio('background_music.mp3');
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var triggerImage = document.getElementById("triggerImage");
     triggerImage.addEventListener("click", showAnimatedImage);
@@ -5,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   function showAnimatedImage() {
     var animatedImage = document.getElementById("animatedImage");
+    audio2.play()
   
     // Position the animated image outside the viewport
     animatedImage.style.left = "-200px"; // Adjust this value to determine the starting position
@@ -13,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
     animatedImage.style.display = "block";
   
     // Animate the image to slide in from the left and rotate
-    var startPosition = -2000; // Starting position (outside the viewport)
+    var startPosition = -5000; // Starting position (outside the viewport)
     var endPosition = 0; // Ending position (position you want the image to end up)
-    var animationDuration = 1000; // Animation duration in milliseconds
+    var animationDuration = 9000; // Animation duration in milliseconds
     var startTime = null;
   
     // Rotation variables
