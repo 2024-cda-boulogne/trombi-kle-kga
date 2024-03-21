@@ -95,9 +95,6 @@ svg {
 .FR-62:hover {
   fill: rosybrown;
 }
-.masquer {
-  display: none;
-}
 .point {
   width: 20px;
   height: 20px;
@@ -199,8 +196,8 @@ svg {
     #ff00c8,
     #ff0000
   );
-  background-size: 400%;
-  animation: animate 5s linear infinite;
+  background-size: 1200%;
+  animation: animate 15s linear infinite;
   filter: blur(0px);
 }
 @keyframes animate {
@@ -208,7 +205,7 @@ svg {
     background-position: 0 0;
   }
   50% {
-    background-position: 400% 0;
+    background-position:900% 0;
   }
   100% {
     background-position: 0 0;
@@ -224,6 +221,13 @@ svg {
 }
 .popup-content svg{
   width: 50px;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  width: 10vw;
+  text-align: center;
+  align-items: center;
 }
 #reseaux{
   display: flex;

@@ -1,0 +1,93 @@
+.container {
+    background-image: url(../IMG/carte-hauts-de-france.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    width: 1340px;
+}
+
+.icon {
+    position: absolute;
+    width: 32px; /* Ajustez la taille de l'icône selon vos besoins */
+    height: 32px; /* Ajustez la taille de l'icône selon vos besoins */
+    background-image: url('../IMG/location.png'); /* Remplacez 'votre_icone.png' par le chemin de votre icône */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.pos-kevin {
+    position: absolute;
+    top: 277px;
+    left: 239px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pos-karl {
+    top: 261px;
+    left: 161px;
+}
+
+.pos-alex {
+    top: 243px;
+    left: 174px;
+}
+
+.pos-alexandreM {
+    top: 289px;
+    left: 677px;
+}
+.pos-theoC {
+    top: 243px;
+    left: 196px;
+}
+
+.pos-jb {
+    top: 264px;
+    left: 377px
+}
+
+.pos-theoD {
+    top: 273px;
+    left: 169px
+}
+
+.pos-will {
+    top: 258px;
+    left: 184px;
+}
+
+.pos-geo {
+    top: 200px;
+    left: 203px
+}
+
+.pos-eric {
+    top: 244px;
+    left: 152px;
+}
+
+.pos-vivien {
+    top: 221px;
+    left: 172px;
+}
+
+.pos-nico {
+    top: 279px;
+    left: 208px;
+}
+
+.popup {
+    display: none; /* Cache la popup initialement */
+    position: absolute;
+    top: 50%; /* Place le haut de la popup au milieu de la fenêtre */
+    left: 50%; /* Place la gauche de la popup au milieu de la fenêtre */
+    transform: translate(-50%, -50%); /* Centre la popup par rapport à son propre contenu */
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

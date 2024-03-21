@@ -105,7 +105,7 @@
     "name":"L'autre 1",
     "city":"Sous l'océan",
     "stack":"Docker",
-    "avatar": "IMG/avatars/default.jpg",
+    "avatar": "IMG/avatars/docker.png",
     "github": "Inconnu",
     "linkedin": "Inconnu",
     "hobbies": "Nager, Covoiturage, Vider des conteneurs"
@@ -115,7 +115,7 @@
     "name":"L'autre 2",
     "city":"Sous l'océan",
     "stack":"Docker",
-    "avatar": "IMG/avatars/default.jpg",
+    "avatar": "IMG/avatars/docker.png",
     "github": "Inconnu",
     "linkedin": "Inconnu",
     "hobbies": "Nager, Covoiturage, Vider des conteneurs"
@@ -145,7 +145,7 @@
     "name":"Gilles",
     "city":"Pole Emploi",
     "stack":"Sourires",
-    "avatar": "IMG/avatars/sourire.jpg",
+    "avatar": "IMG/avatars/PE.jpg",
     "github": "Inconnu",
     "linkedin": "Inconnu",
     "hobbies": "Sourire, sourire et sourire"
